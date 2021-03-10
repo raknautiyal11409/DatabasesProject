@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9A105A6-345B-59DB-7795-6C17FCAA7F40" name="BookingDetails">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 14:35:57 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bookingId" id="AE890FF2-A158-7887-C51A-73D0A8BE2537">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 14:36:47 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="time" id="6870A358-2871-756F-95F1-1BFAFBC4F68C">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 14:36:48 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>E98B5C20-8A14-8456-6649-A7FAD9FB289D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numOfPeople" id="CAE48FB9-77D1-B376-E5FF-E227389A1B61">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 14:36:49 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3BBB43E1-3D53-6CD0-4238-C1931D38BA5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="custNum" id="5EE7B134-5D8C-7A60-2681-E5CAFDA8EEB7">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 15:24:11 UTC</createdTime>
+<generatorID>3AD53329-82C3-A6EC-9518-4947F49E7184</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<referedAttribute>47F758C3-8E2C-7B63-9FE0-2DB690906282</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E45C500-E0E4-C69A-23FA-0D89A25B554B" name="BookingDetails PK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 14:36:51 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE890FF2-A158-7887-C51A-73D0A8BE2537</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

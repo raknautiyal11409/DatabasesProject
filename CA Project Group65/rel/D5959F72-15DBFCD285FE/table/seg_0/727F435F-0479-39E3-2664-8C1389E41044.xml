@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="727F435F-0479-39E3-2664-8C1389E41044" name="BookingDetails">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>A9A105A6-345B-59DB-7795-6C17FCAA7F40</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bookingId" id="B2B31F19-FF7A-3914-0C51-3668DB317A7A">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>AE890FF2-A158-7887-C51A-73D0A8BE2537</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="time" id="C5224A65-4D7A-A58D-0C92-1BA99EB21088">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>6870A358-2871-756F-95F1-1BFAFBC4F68C</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>E98B5C20-8A14-8456-6649-A7FAD9FB289D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numOfPeople" id="3271D406-4D5A-CCB3-037A-6830008A0724">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>CAE48FB9-77D1-B376-E5FF-E227389A1B61</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3BBB43E1-3D53-6CD0-4238-C1931D38BA5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_custNum" id="33ECC94B-81C7-5ECF-563E-8E9A49FDE61B">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>5EE7B134-5D8C-7A60-2681-E5CAFDA8EEB7</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23D966F8-759A-7454-BB47-EE9CE20EC5FE" referredColumn="8AB56459-C7A6-C44D-5888-CEBFCE0ECB73"/>
+</associations>
+</Column>
+<Column name="timeOut" id="78BA5259-419D-C476-0892-8168C713E7A7">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>5AF7E250-091E-314D-83B5-A89774CACB4E</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>E98B5C20-8A14-8456-6649-A7FAD9FB289D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F30FF64-F3F5-81D3-C68E-A31ADC3DEB91" name="BookingDetails_PK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>5E45C500-E0E4-C69A-23FA-0D89A25B554B</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2B31F19-FF7A-3914-0C51-3668DB317A7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E881B2FD-3DEB-1B53-B764-69D4351D652F" name="BookingDetails_Customer_FK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>3AD53329-82C3-A6EC-9518-4947F49E7184</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33ECC94B-81C7-5ECF-563E-8E9A49FDE61B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="NumOfPeople_CK_1" directorySegmentName="seg_0" id="007C4FD4-F436-C30D-FD7D-BC2F9F90E151">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 18:20:59 UTC</createdTime>
+<ownerDesignName>BurgerShack</ownerDesignName>
+<rule><![CDATA[numOfPeople < 6]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

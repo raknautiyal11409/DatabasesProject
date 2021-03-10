@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="428447BC-0B82-6775-55F0-6A4E673C935A" name="ContactTracing">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 15:08:52 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="custNum" id="3EA0E1FB-F34B-317D-646A-B7A3DF268620">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 15:18:10 UTC</createdTime>
+<generatorID>55936427-724F-1B78-37C9-9036F3E9EA4A</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<referedAttribute>47F758C3-8E2C-7B63-9FE0-2DB690906282</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="1F0AFB33-F0F6-1CA3-8509-8B1C6C780539">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 15:41:23 UTC</createdTime>
+<generatorID>32E1606F-E79B-09DC-8F3C-87DB003E850C</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<referedAttribute>63AA863C-F228-826E-B2B2-C73D0B15B30A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="0F37DBF6-4BFF-5E96-858F-9F15A0683E81">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 16:03:22 UTC</createdTime>
+<generatorID>7491A1EA-22D1-C873-277A-16B6E06D1BB6</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<referedAttribute>5DD15C12-9159-4969-B941-105639BE9F8D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tableId" id="688DCB73-6283-2202-9EDA-12A0FB750ED0">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 16:15:17 UTC</createdTime>
+<generatorID>00E999BA-B29B-0FD8-7527-82BC2597C8C4</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<referedAttribute>328B7CCF-32ED-A625-841C-F4269B834589</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20D285CD-67CC-E924-9CD5-66FC8662F35D" name="ContactTracing PK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 16:15:46 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3EA0E1FB-F34B-317D-646A-B7A3DF268620</attributeRef>
+<attributeRef>688DCB73-6283-2202-9EDA-12A0FB750ED0</attributeRef>
+<attributeRef>1F0AFB33-F0F6-1CA3-8509-8B1C6C780539</attributeRef>
+<attributeRef>0F37DBF6-4BFF-5E96-858F-9F15A0683E81</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

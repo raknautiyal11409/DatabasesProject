@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Branch" directorySegmentName="seg_0" id="77010842-452B-7A35-367E-33CDA8ACE980">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="address" id="2513DD11-81AC-5178-C404-21B84579BE78">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phoneNum" id="41A4F161-E63E-90DA-8F6F-035A492AB6BD">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="branchId" id="9E7FBF7C-3CBE-50FB-17AC-7E8B09FA022E">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Branch_PK" id="1FFB6A4E-4E4A-F460-FB2A-D467D65F6C08">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

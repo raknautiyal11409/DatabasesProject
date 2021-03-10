@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="583D7B92-8C20-CEE8-020B-AB6892D33A4D" name="WaitingStaff">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>1EECC321-5FD8-1754-E2B5-9E7C1EB54423</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C98292F6-6BE0-240D-4B56-4C84569D2AB9">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>5DD15C12-9159-4969-B941-105639BE9F8D</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="D48E70F6-60D0-73A7-EB3B-877AA471B899">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>1FC8782D-2F67-0BF0-B609-49B4A37FA1D9</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D088D732-0B79-76B6-170C-96F6220304B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="962DF7EC-FBF9-ED07-B340-64AD91EDB5D7">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>E4303A3F-40DA-553F-8D10-21B94849B92C</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5C0AED75-2A76-4519-F5F9-D9462C07A183</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="411F7A1E-DD7E-7C3D-0ECC-7E7243D45B22">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>341DF3A5-E989-6979-9E38-43977364BE48</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>21625E74-72F4-DB6C-419A-BF75A3F31395</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="2C291B4F-58AB-7A56-5623-95C57E2278A8">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>F0EDC75F-09A3-CD56-1751-99689B704298</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>114B5E21-0480-C795-9A60-F4A3A0578303</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dateOfBirth" id="985E7182-B470-A0BE-2A4F-913BA873B187">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>A3D4BC19-FE58-80EA-E217-9350B77263BA</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>CF10853F-91E3-BA51-9CA4-0C0848A671B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Branch_branchId" id="D426753E-26B0-0D67-0994-1891ED0F3ACA">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>01157598-FA13-E5B8-AF03-C07BB2434129</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C333E81-63D8-1593-4C71-4752FFD2F979" referredColumn="9E7FBF7C-3CBE-50FB-17AC-7E8B09FA022E"/>
+</associations>
+</Column>
+<Column name="startDate" id="D792552A-5618-9F58-84C6-75C66294DB9A">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 00:44:37 UTC</createdTime>
+<generatorID>0B416BE1-DB1B-2099-3EBF-22F1674EE4CB</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>CF10853F-91E3-BA51-9CA4-0C0848A671B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC734615-7FAD-E54A-4E52-66AECF39E0B9" name="WaitingStaff_PK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>D3ECA3C6-BA6B-E6F7-F787-42B0A96B869D</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C98292F6-6BE0-240D-4B56-4C84569D2AB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8366B180-D2EB-6BF7-859D-FFCF19E0D5B4" name="WaitingStaff_email_UN">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 00:45:37 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="411F7A1E-DD7E-7C3D-0ECC-7E7243D45B22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7975E75-7B54-E604-86E9-963B9E56884A" name="WaitingStaff_Branch_FK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>22EC3B48-EA32-F79A-9D28-54112538F648</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D426753E-26B0-0D67-0994-1891ED0F3ACA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Check_WaitingStaff_email" directorySegmentName="seg_0" id="51E100FB-4654-AC00-A570-BB2652A59F75">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 18:33:54 UTC</createdTime>
+<ownerDesignName>BurgerShack</ownerDesignName>
+<rule><![CDATA[email like '%@burgershack.com%']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

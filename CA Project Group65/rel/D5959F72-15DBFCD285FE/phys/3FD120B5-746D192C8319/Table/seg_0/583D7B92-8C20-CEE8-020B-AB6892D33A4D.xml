@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="WaitingStaff" directorySegmentName="seg_0" id="583D7B92-8C20-CEE8-020B-AB6892D33A4D">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="phone" id="2C291B4F-58AB-7A56-5623-95C57E2278A8">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="411F7A1E-DD7E-7C3D-0ECC-7E7243D45B22">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="address" id="962DF7EC-FBF9-ED07-B340-64AD91EDB5D7">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dateOfBirth" id="985E7182-B470-A0BE-2A4F-913BA873B187">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="C98292F6-6BE0-240D-4B56-4C84569D2AB9">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Branch_branchId" id="D426753E-26B0-0D67-0994-1891ED0F3ACA">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="name" id="D48E70F6-60D0-73A7-EB3B-877AA471B899">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="startDate" id="D792552A-5618-9F58-84C6-75C66294DB9A">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="WaitingStaff_Branch_FK" id="A7975E75-7B54-E604-86E9-963B9E56884A">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="WaitingStaff_PK" id="CC734615-7FAD-E54A-4E52-66AECF39E0B9">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="Check_WaitingStaff_email" id="51E100FB-4654-AC00-A570-BB2652A59F75">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="WaitingStaff_email_UN" id="8366B180-D2EB-6BF7-859D-FFCF19E0D5B4">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E763C05B-2E1D-51BC-4F14-6F36DA5AB138" name="ContactTracing">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>428447BC-0B82-6775-55F0-6A4E673C935A</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Customer_custNum" id="56D90AD7-35C8-8398-CD21-05F51947B5B6">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>3EA0E1FB-F34B-317D-646A-B7A3DF268620</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24038DA7-9EF2-BDB8-2738-9C76CAF0AE86" referredColumn="8AB56459-C7A6-C44D-5888-CEBFCE0ECB73"/>
+</associations>
+</Column>
+<Column name="Manager_id" id="440A12D0-2885-3A70-8AC1-5BDCD0516794">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>1F0AFB33-F0F6-1CA3-8509-8B1C6C780539</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6251A05A-246D-82BE-694C-767876941E67" referredColumn="46833B04-2413-9F4F-7A19-08A0003AD5D9"/>
+</associations>
+</Column>
+<Column name="WaitingStaff_id" id="34291119-AB19-B355-FBC3-7E1FBA4F68D7">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>0F37DBF6-4BFF-5E96-858F-9F15A0683E81</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="929C9588-662C-D20F-D731-B7A4D00AF63F" referredColumn="C98292F6-6BE0-240D-4B56-4C84569D2AB9"/>
+</associations>
+</Column>
+<Column name="TableInfo_tableId" id="5F4E0F46-FA1C-0ADB-6118-BDF2904DDE1C">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>688DCB73-6283-2202-9EDA-12A0FB750ED0</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C44499CB-1CE7-FAF2-B523-A0A2D408215A" referredColumn="12FEC82E-64B0-0C53-0EE2-AB51028CD7A6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F0DD6DF-075D-27C0-A31B-5A2AF57D04AA" name="ContactTracing_PK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>20D285CD-67CC-E924-9CD5-66FC8662F35D</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56D90AD7-35C8-8398-CD21-05F51947B5B6"/>
+<colUsage columnID="5F4E0F46-FA1C-0ADB-6118-BDF2904DDE1C"/>
+<colUsage columnID="440A12D0-2885-3A70-8AC1-5BDCD0516794"/>
+<colUsage columnID="34291119-AB19-B355-FBC3-7E1FBA4F68D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C91D07AB-D452-9B7E-01BB-69161A2DB614" name="ContactTracing_Customer_FK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>55936427-724F-1B78-37C9-9036F3E9EA4A</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56D90AD7-35C8-8398-CD21-05F51947B5B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C926AC0D-2F10-512B-D0C1-AE3B248D81B2" name="ContactTracing_Manager_FK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>32E1606F-E79B-09DC-8F3C-87DB003E850C</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="440A12D0-2885-3A70-8AC1-5BDCD0516794"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0AF603A-3235-D7C2-F855-CA655299B558" name="ContactTracing_TableInfo_FK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>00E999BA-B29B-0FD8-7527-82BC2597C8C4</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F4E0F46-FA1C-0ADB-6118-BDF2904DDE1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8B05934-91C6-1E36-FDBC-3D88DE7AD3E7" name="ContactTracing_WaitingStaff_FK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>7491A1EA-22D1-C873-277A-16B6E06D1BB6</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34291119-AB19-B355-FBC3-7E1FBA4F68D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

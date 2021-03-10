@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E0A5F29-5402-7617-3BFD-402A4F19EC04" name="Customer">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>69927822-BFFD-B3CB-6B9F-35E4BE04F357</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="custNum" id="8AB56459-C7A6-C44D-5888-CEBFCE0ECB73">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>47F758C3-8E2C-7B63-9FE0-2DB690906282</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="DDC9D8E1-5040-4F73-67A3-A5728CF04DE9">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>4975EF7E-649B-9DBE-9AE4-20198F886B6D</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D088D732-0B79-76B6-170C-96F6220304B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="225FA09F-6468-C505-E296-0581718C3176">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>2B64000F-1ABE-19C3-04C5-7C7380458A69</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5C0AED75-2A76-4519-F5F9-D9462C07A183</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="86F1CE81-ACD6-D713-0D6F-3E4E3C942293">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>7B18A277-140F-2870-D330-3B13947922DA</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>21625E74-72F4-DB6C-419A-BF75A3F31395</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phoneNum" id="B8EF2422-3EC3-2D59-95E5-500D62F6A158">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>65E2BC41-66EF-B8ED-7F46-00831B284CF4</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>114B5E21-0480-C795-9A60-F4A3A0578303</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="age" id="E9E85D04-E7A8-9CED-E083-7081E4395CF1">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>A29E19FA-650E-4172-4B17-1FB4A002CA33</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3BBB43E1-3D53-6CD0-4238-C1931D38BA5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A66DCD27-BDE5-1F34-2B3F-7FE0BF445849" name="Customer_PK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>E21AB36A-2102-49BD-FB4E-C5EEA98A0771</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AB56459-C7A6-C44D-5888-CEBFCE0ECB73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Customer_Age_CK_1" directorySegmentName="seg_0" id="FDC92786-B303-20C4-1941-D44710DDD434">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 18:09:08 UTC</createdTime>
+<ownerDesignName>BurgerShack</ownerDesignName>
+<rule><![CDATA[age > 17]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

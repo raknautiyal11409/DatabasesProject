@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F54702A7-B69A-1EBE-C156-32CF7DAA6D0A" name="TableInfo">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 12:55:07 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tableId" id="328B7CCF-32ED-A625-841C-F4269B834589">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 12:57:39 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location" id="DC6D7070-B013-347C-5D25-D048A9C2517A">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 12:57:40 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1F9546BD-5146-95CE-5F0B-7308EAB2407D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="4C97A562-F666-A4B3-18E1-DD51A3C9C941">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 12:57:41 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3BBB43E1-3D53-6CD0-4238-C1931D38BA5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="414623D2-0B1E-9DE7-0093-45065CBB7FDC" name="TableInfo PK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 16:14:52 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>328B7CCF-32ED-A625-841C-F4269B834589</newElementsIDs>
+<usedAttributes>
+<attributeRef>328B7CCF-32ED-A625-841C-F4269B834589</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

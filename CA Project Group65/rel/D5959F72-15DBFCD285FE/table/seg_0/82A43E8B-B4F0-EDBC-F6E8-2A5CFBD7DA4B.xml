@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82A43E8B-B4F0-EDBC-F6E8-2A5CFBD7DA4B" name="Fine">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 23:04:14 UTC</createdTime>
+<generatorID>35A9AA65-B9EA-7F8A-9D21-8C8B8A4B610D</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TimeOut" id="A1906084-70E3-DF34-C817-78B3054B2789">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 23:04:14 UTC</createdTime>
+<generatorID>40A23911-E83D-732A-9BF5-3ECA9D39E1CB</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>E98B5C20-8A14-8456-6649-A7FAD9FB289D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_custNum" id="26CB3573-FBEC-3F0F-B682-5A62C487C6D8">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 23:04:14 UTC</createdTime>
+<generatorID>363B7461-6B12-0081-FDB9-7C29E4430806</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D26A3B8-641C-AA22-0395-C6D37513FD6E" referredColumn="8AB56459-C7A6-C44D-5888-CEBFCE0ECB73"/>
+</associations>
+</Column>
+<Column name="fineDue" id="C757EEC3-1060-4B78-5809-E84F9695B55A">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:04:32 UTC</createdTime>
+<generatorID>F67CAD74-22C4-5F61-85E9-F183A99D1D3F</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F38F6D09-F4C5-E121-712E-D8FAF4894587" name="Fine_PK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 23:04:14 UTC</createdTime>
+<generatorID>06077CD9-9337-AFD0-E32B-B351D20EB613</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26CB3573-FBEC-3F0F-B682-5A62C487C6D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4034E98E-8FD6-BBA0-F3E5-AAF52DA9B195" name="Fine_Customer_FK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 23:04:14 UTC</createdTime>
+<generatorID>2F077F77-3BD5-7969-7465-594ECFBDCFF6</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26CB3573-FBEC-3F0F-B682-5A62C487C6D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

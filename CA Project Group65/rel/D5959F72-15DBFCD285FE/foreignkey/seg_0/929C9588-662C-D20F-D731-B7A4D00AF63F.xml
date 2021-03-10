@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="929C9588-662C-D20F-D731-B7A4D00AF63F" containerWithKeyObject="E763C05B-2E1D-51BC-4F14-6F36DA5AB138" localFKIndex="B8B05934-91C6-1E36-FDBC-3D88DE7AD3E7" name="ContactTracing_WaitingStaff_FK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>7491A1EA-22D1-C873-277A-16B6E06D1BB6</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<referredTableLongName>WaitingStaff</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>583D7B92-8C20-CEE8-020B-AB6892D33A4D</referredTableID>
+<keyObject>CC734615-7FAD-E54A-4E52-66AECF39E0B9</keyObject>
+<referredKeyID>CC734615-7FAD-E54A-4E52-66AECF39E0B9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

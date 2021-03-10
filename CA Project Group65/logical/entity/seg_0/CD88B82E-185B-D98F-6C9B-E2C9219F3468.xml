@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD88B82E-185B-D98F-6C9B-E2C9219F3468" name="Branch">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 12:45:09 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="branchId" id="CD1CA61F-20F3-F86D-ADA5-29E1384B2F6D">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 12:51:32 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="5479970D-E3CD-B194-DAAA-DABEE5774F6A">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 12:51:33 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5C0AED75-2A76-4519-F5F9-D9462C07A183</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phoneNum" id="935D1980-073C-D8A3-EC70-9670B7D54A2B">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 12:51:34 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>114B5E21-0480-C795-9A60-F4A3A0578303</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3079E820-5C1D-D56C-34A9-A664E4BE3D5B" name="Branch PK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 12:53:10 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>CD1CA61F-20F3-F86D-ADA5-29E1384B2F6D</newElementsIDs>
+<usedAttributes>
+<attributeRef>CD1CA61F-20F3-F86D-ADA5-29E1384B2F6D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

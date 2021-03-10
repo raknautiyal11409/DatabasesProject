@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEDD76F5-B4AE-37D0-B714-6400F9976EC2" name="TableInfo">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>F54702A7-B69A-1EBE-C156-32CF7DAA6D0A</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tableId" id="12FEC82E-64B0-0C53-0EE2-AB51028CD7A6">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>328B7CCF-32ED-A625-841C-F4269B834589</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>33782612-58A1-08A7-0D70-EC76BCA74EF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="E25C1ECD-8415-F4B4-698C-2C84BA302A18">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>DC6D7070-B013-347C-5D25-D048A9C2517A</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1F9546BD-5146-95CE-5F0B-7308EAB2407D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="69C836A0-FC55-26AC-08E7-D45A2DF31FF5">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>4C97A562-F666-A4B3-18E1-DD51A3C9C941</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3BBB43E1-3D53-6CD0-4238-C1931D38BA5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A167EB1-3313-8F86-129A-4C1A02752D83" name="TableInfo_PK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>414623D2-0B1E-9DE7-0093-45065CBB7FDC</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12FEC82E-64B0-0C53-0EE2-AB51028CD7A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Check_Table_type" directorySegmentName="seg_0" id="E92DBD03-8926-A984-C6C1-CAD1D90F63DE">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 18:16:01 UTC</createdTime>
+<ownerDesignName>BurgerShack</ownerDesignName>
+<rule><![CDATA[type like '2' or type like '4' or type like '6' or type like '8']]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Check_Table_Location" directorySegmentName="seg_0" id="E732B6D8-E78F-021C-1DD4-C7A19B2CBBA9">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 18:18:37 UTC</createdTime>
+<ownerDesignName>BurgerShack</ownerDesignName>
+<rule><![CDATA[location like 'window' or location like 'interior']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

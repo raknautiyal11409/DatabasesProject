@@ -1,0 +1,1 @@
+Creating a Physical and Logical Model of a database using oracle datamodeller and sqldeveloper.

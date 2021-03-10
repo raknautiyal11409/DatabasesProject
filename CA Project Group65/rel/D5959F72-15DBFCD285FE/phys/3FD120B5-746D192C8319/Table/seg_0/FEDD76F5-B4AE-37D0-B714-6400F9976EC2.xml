@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TableInfo" directorySegmentName="seg_0" id="FEDD76F5-B4AE-37D0-B714-6400F9976EC2">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="tableId" id="12FEC82E-64B0-0C53-0EE2-AB51028CD7A6">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="type" id="69C836A0-FC55-26AC-08E7-D45A2DF31FF5">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="location" id="E25C1ECD-8415-F4B4-698C-2C84BA302A18">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TableInfo_PK" id="6A167EB1-3313-8F86-129A-4C1A02752D83">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="Check_Table_Location" id="E732B6D8-E78F-021C-1DD4-C7A19B2CBBA9">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="Check_Table_type" id="E92DBD03-8926-A984-C6C1-CAD1D90F63DE">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

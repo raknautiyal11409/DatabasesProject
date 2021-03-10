@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CA Project Group65" id="427BE3AC-1687-2CC8-ECC7-4B9435687DF8" version="3.5">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 11:51:36 UTC</createdTime>
+<ownerDesignName>BurgerShack</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>427BE3AC-1687-2CC8-ECC7-4B9435687DF8</designId>
+</OSDM_Design>

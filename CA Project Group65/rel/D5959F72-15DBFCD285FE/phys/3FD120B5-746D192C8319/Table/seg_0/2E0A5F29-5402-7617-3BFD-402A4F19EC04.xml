@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Customer" directorySegmentName="seg_0" id="2E0A5F29-5402-7617-3BFD-402A4F19EC04">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="address" id="225FA09F-6468-C505-E296-0581718C3176">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="86F1CE81-ACD6-D713-0D6F-3E4E3C942293">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="custNum" id="8AB56459-C7A6-C44D-5888-CEBFCE0ECB73">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phoneNum" id="B8EF2422-3EC3-2D59-95E5-500D62F6A158">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="name" id="DDC9D8E1-5040-4F73-67A3-A5728CF04DE9">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="age" id="E9E85D04-E7A8-9CED-E083-7081E4395CF1">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Customer_PK" id="A66DCD27-BDE5-1F34-2B3F-7FE0BF445849">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="Customer_Age_CK_1" id="FDC92786-B303-20C4-1941-D44710DDD434">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-07 01:12:00 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="24038DA7-9EF2-BDB8-2738-9C76CAF0AE86" containerWithKeyObject="E763C05B-2E1D-51BC-4F14-6F36DA5AB138" localFKIndex="C91D07AB-D452-9B7E-01BB-69161A2DB614" name="ContactTracing_Customer_FK">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 17:54:55 UTC</createdTime>
+<generatorID>55936427-724F-1B78-37C9-9036F3E9EA4A</generatorID>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<referredTableLongName>Customer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2E0A5F29-5402-7617-3BFD-402A4F19EC04</referredTableID>
+<keyObject>A66DCD27-BDE5-1F34-2B3F-7FE0BF445849</keyObject>
+<referredKeyID>A66DCD27-BDE5-1F34-2B3F-7FE0BF445849</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>custNum</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

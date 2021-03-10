@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Waiter_branch" directorySegmentName="seg_0" id="22EC3B48-EA32-F79A-9D28-54112538F648">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 15:49:14 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<sourcePk>3079E820-5C1D-D56C-34A9-A664E4BE3D5B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CD88B82E-185B-D98F-6C9B-E2C9219F3468</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1EECC321-5FD8-1754-E2B5-9E7C1EB54423</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

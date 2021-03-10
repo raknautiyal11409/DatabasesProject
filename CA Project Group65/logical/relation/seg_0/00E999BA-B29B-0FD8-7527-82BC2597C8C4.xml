@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tracing_table" directorySegmentName="seg_0" id="00E999BA-B29B-0FD8-7527-82BC2597C8C4">
+<createdBy>raksh</createdBy>
+<createdTime>2020-12-06 15:28:12 UTC</createdTime>
+<ownerDesignName>CA Project Group65</ownerDesignName>
+<engineerTo>
+<item key="D5959F72-0453-8A4B-7E06-15DBFCD285FE" value="true"/>
+</engineerTo>
+<sourcePk>414623D2-0B1E-9DE7-0093-45065CBB7FDC</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F54702A7-B69A-1EBE-C156-32CF7DAA6D0A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>428447BC-0B82-6775-55F0-6A4E673C935A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

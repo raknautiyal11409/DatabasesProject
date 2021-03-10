@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="26D09CBF-0210-F3C0-F75B-656C918A17C2" name="Bueger Shack Relational Model" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
